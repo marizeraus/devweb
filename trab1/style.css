@@ -1,0 +1,15 @@
+.col-md-3 {
+  height: 300px;
+  margin-right: 30px;
+  margin-top: 20px;
+  color: aliceblue;
+}
+
+.navbar-custom {
+  background-color: aqua;
+}
+
+.nav-link {
+  color: white;
+  font-weight: bold;
+}
