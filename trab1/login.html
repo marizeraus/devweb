@@ -8,17 +8,19 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
-    <title>EscolaLega</title>
+    <title>Cursos Lero Lero - Login</title>
 
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+
   </head>
 
   <body>
     <div class="container-fluid">
       <!-- NAVBAR-->
-      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <nav class="navbar navbar-expand-sm navbar-custom">
         <ul class="navbar-nav">
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item ">
@@ -33,13 +35,21 @@
           <li class="nav-item ">
             <a class="nav-link" href="registro.html">Registre-se</a>
           </li>
-          <li class="nav-item ">
+          <li class="nav-item active">
             <a class="nav-link" href="login.html">Login</a>
           </li>
         </ul>
       </nav>
       <!-- FIM NAVBAR-->
       <h1>Login!</h1>
+      <form>
+        <div class="form-group">
+        Login:<br/> <input type="text" class="col-md-5 form-control" name="login" required><br/>
+        Senha:<br/> <input type="password" class="col-md-5 form-control" name="senha" required><br/>
+        <br/>
+        <input type="submit" class="btn btn-primary mb-2" value="Entrar">
+        </div>
+      </form>
     </div>
 
     <script src="jquery/jquery-3.4.1.min.js"></script>
