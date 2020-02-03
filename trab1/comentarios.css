@@ -1,0 +1,11 @@
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+    padding: 2%;
+}
+
+.card{
+    margin:30px;
+    border-color: aqua;
+
+}
